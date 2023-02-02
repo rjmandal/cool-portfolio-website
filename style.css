@@ -328,7 +328,7 @@ h1 {
 
 .project-section-1::after {
     content: "";
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/asset\ 29.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/modern-chair.png);
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -340,7 +340,7 @@ h1 {
 
 .project-section-2::after {
     content: "";
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/asset\ 30.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/clone.png);
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -352,7 +352,7 @@ h1 {
 
 .project-section-3::after {
     content: "";
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/asset\ 31.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/spotify.png);
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -364,7 +364,7 @@ h1 {
 
 .project-section-4::after {
     content: "";
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/asset\ 32.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/yoga.png);
     background-size: cover;
     position: absolute;
     top: 0px;
