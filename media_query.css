@@ -15,7 +15,6 @@
     .hero-section-text {
         width: 100%;
         align-items: center;
-        text-align: center;
     }
 
     .project-card {
@@ -30,10 +29,6 @@
 }
 
 @media screen and (max-width : 478px) {
-
-    .user-logo{
-        filter: drop-shadow(0 0 0 black);
-    }
 
     .hero-section-image {
         scale: 0.6;

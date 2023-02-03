@@ -98,15 +98,8 @@ header {
     position: relative;
 }
 
-.user-logo {
+.name img {
     width: 80px;
-    filter: drop-shadow(0 0 10px #333);
-    cursor: pointer;
-    transition: scale 0.4s;
-}
-
-.user-logo:hover{
-    scale: 1.1;
 }
 
 .name p {
@@ -144,11 +137,18 @@ header {
     justify-content: space-between;
 }
 
+
+.role{
+    color: #4e45d5;
+    font-weight: 800;
+}
+
 .hero-section-text {
     flex-direction: column;
     gap: 25px;
     align-items: flex-start;
     width: 35vw;
+    text-align: center;
 }
 
 .hero-section-text>p:nth-child(1) {
@@ -175,13 +175,10 @@ header {
     position: relative;
 }
 
-.user-image {
+.hero-section-image img:not(.icons) {
     padding: 40px;
     justify-content: center;
     transform: all 0.8s;
-    width: 360px;
-    height: 390px;
-    object-fit: cover;
     animation: Zoom-in-out 2.5s infinite linear alternate;
 }
 
@@ -220,7 +217,6 @@ header {
     transform: translateX(-50%);
     animation: up-down 4s infinite ease;
 }
-
 
 /* icons animation */
 
@@ -328,7 +324,7 @@ h1 {
 
 .project-section-1::after {
     content: "";
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/modern-chair.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/asset\ 29.png);
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -340,7 +336,7 @@ h1 {
 
 .project-section-2::after {
     content: "";
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/clone.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/asset\ 30.png);
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -352,7 +348,7 @@ h1 {
 
 .project-section-3::after {
     content: "";
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/spotify.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/asset\ 31.png);
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -364,7 +360,7 @@ h1 {
 
 .project-section-4::after {
     content: "";
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/yoga.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(assets/asset\ 32.png);
     background-size: cover;
     position: absolute;
     top: 0px;
